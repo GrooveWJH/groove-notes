@@ -1,0 +1,16 @@
+[package]
+name = "groove-notes"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["gr00ve"]
+license = "MIT"
+description = ""
+repository = "https://github.com/GrooveWJH/groove-notes"
+keywords = []
+categories = []
+exclude = []
+
+[template]
+path = "template"
+entrypoint = "template.typ"
+thumbnail = "thumbnail.png"
