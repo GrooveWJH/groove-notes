@@ -7,7 +7,7 @@
   日期:[日期],
 ) = [
   #align(center + alignment.top)[
-    笔记
+    notes
   ]
   #align(center + alignment.horizon)[
     #text(size: 30pt)[#标题]\

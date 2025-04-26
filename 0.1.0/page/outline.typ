@@ -2,6 +2,7 @@
 
 #let outline-page(
   // info: (:),
+  language: "cn",
 ) = {
   set page(header: none)
   set text(size: 15pt)
@@ -25,8 +26,18 @@
     title: [#{
         // set text(font: fonts.黑体, size: fontsize.小二)
         set par(spacing: 1em)
-        text()[#fakebold()[目#h(2em)录]]}
-        ],
+        if language == "cn" {
+          text()[
+            #fakebold()[目#h(2em)录]
+          ]
+        }
+        else{
+          text()[
+            #fakebold()[Outline]
+          ]
+        }
+      }
+    ],
     indent: 1.8em,
     depth: 3,
   )
